@@ -10,6 +10,9 @@ collection of fixed rules such as “block after three deletes.”
 
 ## How the AI works
 
+<img width="813" height="790" alt="1" src="https://github.com/user-attachments/assets/b59f04fc-d42b-4ec7-a623-acbbad637238" />
+
+
 Pahak's C core trains on numeric examples of normal behavior. When given a new
 feature vector, the model returns a score from `0` to `1`; higher scores mean
 the behavior appears more unusual relative to that baseline. The application
